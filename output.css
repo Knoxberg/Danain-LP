@@ -1178,17 +1178,6 @@ input:checked + .toggle-bg {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
 .cursor-default {
   cursor: default;
 }
@@ -1521,8 +1510,8 @@ input:checked + .toggle-bg {
   padding-right: 1rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .pt-2 {
@@ -1535,38 +1524,6 @@ input:checked + .toggle-bg {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-\[3\.75rem\] {
-  padding-top: 3.75rem;
-}
-
-.pt-\[3\.7rem\] {
-  padding-top: 3.7rem;
-}
-
-.pt-\[3\.6rem\] {
-  padding-top: 3.6rem;
-}
-
-.pt-\[3\.55rem\] {
-  padding-top: 3.55rem;
-}
-
-.pt-\[3\.5rem\] {
-  padding-top: 3.5rem;
-}
-
-.pt-\[3\.4rem\] {
-  padding-top: 3.4rem;
-}
-
-.pt-\[3\.3rem\] {
-  padding-top: 3.3rem;
-}
-
-.pt-14 {
-  padding-top: 3.5rem;
 }
 
 .text-left {
