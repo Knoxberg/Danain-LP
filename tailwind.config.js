@@ -15,7 +15,7 @@ module.exports = {
           "700": "#1d64d8", 
           "800": "#1e55af", 
           "900": "#1e478a",
-          "950": "#172e54"}
+          "950": "#172e54"},
       },
       lineHeight: {
         'extra-loose': '2.5',
@@ -24,6 +24,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin'),
+    require('flowbite/plugin')
   ],
 }
